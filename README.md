@@ -9,7 +9,7 @@ Fun 10-question quiz to test your knowledge.
 ## About
 
 __Final practice of the advanced JavaScript module.__  
-GitHub repo: [JavGuerra/summer-quiz](https://javguerra.github.io/summer-quiz/)  
+GitHub repo: [JavGuerra/summer-quiz](https://github.com/JavGuerra/summer-quiz)  
 
 By: __Javier Guerra__  
 25 questions in JSON by: __Alejandro Rodríguez__
