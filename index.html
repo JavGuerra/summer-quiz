@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# website: http://ogp.me/ns/website#">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summer Quiz</title>
+    <meta name="description" content="Fun 10-question quiz to test your knowledge." />
+    <meta name="keywords" content="Full Stack Web Developer" />
+    <meta name="date" content="Jun. 13, 2022" />
+    <meta name="author" content="Javier Guerra" />
+    <meta name="copyright" content="CC BY-SA 3.0" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@javgr" />
+    <meta property="og:url" content="https://javguerra.github.io/summer-quiz/index.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Summer Quiz" />
+    <meta property="og:description" content="Fun 10-question quiz to test your knowledge." />
+    <meta property="og:image" content="assets/img/banner.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="Banner" />
+    <meta property="og:locale" content="en_GB" />
+    <link rel="canonical" href="https://javguerra.github.io/summer-quiz/index.html" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="js/functions.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1><img src="assets/img/logo.svg" alt="Sun logo" /> Summer&nbsp;Quiz</h1>
+    </header>
+
+    <main>
+        <div role="region" aria-live="polite" aria-label="Everything happens here ;)">
+            <section id="welcome">
+                <h2>Welcome</h2>
+
+                <p class="box">
+                    <img class="anime" src="assets/img/crabs.svg" alt="Cartoon crabs" />
+                    <br />On this page you can take a fun 10-question quiz to test your knowledge.
+                </p>
+
+                <h3>~ Statistics ~</h3>
+                <div id="statistics">
+                    <div id="chart"></div>
+                    <div id="tablemeter">
+                        <div id="table"></div>
+                        <div id="tmeter">
+                            <label for="average">Average:</label>
+                            <meter id="average" min="0" low="30" optimum="50" high="70" max="100" value="0">0</meter>
+                        </div>
+                    </div>
+                </div>
+                <p id="nothing">
+                    <strong>Nothing to show yet.</strong><br />
+                    Your statistics will be available with each new game.
+                </p>
+
+                <div><button id="play">Play</button></div>
+            </section>
+
+            <section id="quiz">
+                <svg id="close" title="Close" role="img" aria-label="Close" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                </svg>
+
+                <h2>Quiz</h2>
+                
+                <div class="box2">
+                    <img class="anime" src="assets/img/starfish.svg" alt="Cartoon starfish" />
+                    <span id="questi"></span>
+                </div>
+
+                <div id="info">
+                    <p>Difficulty: <span id="diffic"></span></p>
+                    <p>Category: <span id="catego"></span></p>
+                </div>
+
+                <form name="quizForm" action="#" method="get">
+                    <div>
+                        <input class="hidden" type="radio" id="opt1" name="opt" value="0" />
+                        <label class="button-label" for="opt1">Option 1</label>
+                    </div>
+                    <div>
+                        <input class="hidden" type="radio" id="opt2" name="opt" value="0" />
+                        <label class="button-label" for="opt2">Option 2</label>
+                    </div>
+                    <div>
+                        <input class="hidden" type="radio" id="opt3" name="opt" value="0" />
+                        <label class="button-label" for="opt3">Option 3</label>
+                    </div>
+                    <div>
+                        <input class="hidden" type="radio" id="opt4" name="opt" value="0" />
+                        <label class="button-label" for="opt4">Option 4</label>
+                    </div>
+
+                    <div><button id="send">Send</button></div>
+                </form>
+
+                <div>
+                    <label for="numQ">Progress:</label>
+                    <progress id="numQ" max="10" value="0">0%</progress>
+                </div>
+            </section>
+
+            <section id="result">
+                <h2>Result</h2>
+                <div id="score">
+                    <div id="counter"></div>
+                    <p>Has <span id="hits">0</span> out of &nbsp;10 hits</p>
+                </div>
+
+                <p class="box3">
+                    <img class="anime" src="assets/img/fish.svg" alt="Cartoon fish" />
+                    <br />Do you want to try again?
+                </p>
+
+                <div><button id="start">Start</button></div>
+            </section>
+        </div>
+    </main>
+
+    <dialog id="error" role="alertdialog" aria-labelledby="title" aria-describedby="errMsg">
+        <div role="document" tabindex="0">
+            <h3 id="title">Attention!</h3>
+            <p id="errMsg"></p>
+            <button id="ok">OK</button>
+        </div>
+    </dialog>
+
+    <dialog id="zone">
+        <div class="spinner" aria-label="Waiting..."></div>
+    </dialog>
+
+    <footer>
+        <small>
+            <a target="_blank" href="https://github.com/JavGuerra/summer-quiz">
+                <img id="github" src="assets/img/github.svg" alt="Github" /> repo
+            </a>
+        </small>
+    </footer>
+</body>
+
+</html>

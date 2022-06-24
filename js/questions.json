@@ -1,0 +1,213 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who won the Champions League Cup in 2022?",
+      "correct_answer": "Real Madrid CF",
+      "incorrect_answers": [
+        "Club Atlético de Madrid",
+        "Paris Saint-Germaine Football Club",
+        "Liverpool Football Club"
+      ]
+    },
+    {
+      "category": "Shows",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What country won the Eurovision Contest in 2022?",
+      "correct_answer": "Ukraine",
+      "incorrect_answers": ["Sweden", "United Kingdom", "Spain"]
+    },
+    {
+      "category": "Shows",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which city hosted the Eurovision Contest in 2022?",
+      "correct_answer": "Turin",
+      "incorrect_answers": ["Rome", "Paris", "Copenhague"]
+    },
+    {
+      "category": "Shows",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the capital city of Spain?",
+      "correct_answer": "Madrid",
+      "incorrect_answers": ["Barcelona", "Seville", "Valencia"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the capital city of Germany?",
+      "correct_answer": "Berlin",
+      "incorrect_answers": ["Manheim", "Colonia", "Frankfurt"]
+    },
+    {
+      "category": "Shows",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which artist represented Spain in the Eurovision Contest 2022?",
+      "correct_answer": "Chanel",
+      "incorrect_answers": ["Tanxugueiras", "Blas Cantó", "Chikilicuatre"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the biggest country in the world?",
+      "correct_answer": "Russia",
+      "incorrect_answers": ["United States", "Canada", "Australia"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which is the only one country that has a non-rectangle flag?",
+      "correct_answer": "Nepal",
+      "incorrect_answers": ["Uganda", "Vanuatu", "Feroe Islands"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following countries is not located in Oceania?",
+      "correct_answer": "Lesotho",
+      "incorrect_answers": ["Samoa", "Fiyi", "Tuvalu"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the smallest country in the world?",
+      "correct_answer": "Vatican City State",
+      "incorrect_answers": ["Rwanda", "Liechtestein", "Luxembourg"]
+    },
+    {
+      "category": "Geometry",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How many faces does an icosahedron have?",
+      "correct_answer": "Twenty",
+      "incorrect_answers": ["Ten", "Twelve", "Eight"]
+    },
+    {
+      "category": "Literature",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who wrote the book Don Quijote de la Mancha?",
+      "correct_answer": "Miguel de Cervantes",
+      "incorrect_answers": ["Góngora", "Quevedo", "Calderón de la Barca"]
+    },
+    {
+      "category": "Mathematics",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following is the first prime number?",
+      "correct_answer": "Two",
+      "incorrect_answers": ["Three", "Zero", "One"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who was the first president of United States of America?",
+      "correct_answer": "George Washington",
+      "incorrect_answers": [
+        "Thomas Jefferson",
+        "Theodore Roosevelt",
+        "Abraham Lincoln"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which United States president was inaugurated in 2021?",
+      "correct_answer": "Joe Biden",
+      "incorrect_answers": ["Barack Obama", "George Bush", "Donald Trump"]
+    },
+    {
+      "category": "Culture",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Where is the Eiffel Tower?",
+      "correct_answer": "Paris",
+      "incorrect_answers": ["Rome", "Milan", "Oslo"]
+    },
+    {
+      "category": "Culture",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Where is the Hercules Tower?",
+      "correct_answer": "A Coruña",
+      "incorrect_answers": ["Valencia", "Seville", "Pisa"]
+    },
+    {
+      "category": "Culture",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What warrior fought for greeks against Troy?",
+      "correct_answer": "Achilles",
+      "incorrect_answers": ["Alejandro Magno", "Ulysses", "Hector"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What year did the Second World War start?",
+      "correct_answer": "1939",
+      "incorrect_answers": ["1940", "1945", "1942"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What year did the First World War start?",
+      "correct_answer": "1914",
+      "incorrect_answers": ["1918", "1915", "1917"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What year did the French Revolution occur?",
+      "correct_answer": "1789",
+      "incorrect_answers": ["1790", "1788", "1795"]
+    },
+    {
+      "category": "Physics",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "How long does summer take in the North Hemisphere?",
+      "correct_answer": "Three months",
+      "incorrect_answers": ["One month", "Two months", "Four months"]
+    },
+    {
+      "category": "Physics",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What effect appears in Earth while it is rotating?",
+      "correct_answer": "Coriolis effect",
+      "incorrect_answers": ["Magnus effect", "Butterfly effect", "Earthquake"]
+    },
+    {
+      "category": "Physics",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "How many dimensions are there in the String Theory?",
+      "correct_answer": "Eleven",
+      "incorrect_answers": ["Nine", "Five", "Ten"]
+    },
+    {
+      "category": "Movies",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What character becomes evil in Star Wars?",
+      "correct_answer": "Anakin Skywalker",
+      "incorrect_answers": ["Jar Jar Binks", "Qui-Gon Jinn", "Obi-Wan Kenobi"]
+    }
+  ]
+}
