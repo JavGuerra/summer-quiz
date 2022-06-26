@@ -367,6 +367,7 @@ label[for="numQ"] {
 #numQ {
   vertical-align: text-bottom;
   margin-top: 1em;
+  accent-color: green;
 }
 
 #info {
