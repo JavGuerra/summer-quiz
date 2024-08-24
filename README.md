@@ -33,8 +33,8 @@ We use the Question API: [Open Trivia DB](https://opentdb.com/)
 
 Informative articles related to this page (_in spanish_):
 
-* [Summer Quiz](https://javguerra.github.io/2022-06-21-summer-quiz/)
-* [Spinner loader asíncrono](https://javguerra.github.io/2022-05-30-spinner-loader-asincrono/)
-* [Contador de resultados](https://javguerra.github.io/2022-06-04-contador-resultados/)
-* [Gráfica de lineas dinámica con SVG](https://javguerra.github.io/2022-06-12-grafica-lineas/)
-* [Cargar SVG dinámicamente](https://javguerra.github.io/2022-06-14-carga-svg/)
+* [Summer Quiz](https://javguerra.github.io/blog/summer-quiz)
+* [Spinner loader asíncrono](https://javguerra.github.io/blog/spinner-loader-asincrono/)
+* [Contador de resultados](https://javguerra.github.io/blog/contador-resultados/)
+* [Gráfica de lineas dinámica con SVG](https://javguerra.github.io/blog/grafica-lineas/)
+* [Cargar SVG dinámicamente](https://javguerra.github.io/blog/carga-svg/)
